@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Essentials</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 0 10px;
+            background: #fff;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 20px;
+            background: #333;
+            color: white;
+        }
+        code {
+            background: #eee;
+            padding: 2px 6px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Learn Git Basics</h1>
+    </header>
+
+    <section>
+        <h2>What is Git?</h2>
+        <p>Git is a distributed version control system that lets you manage and keep track of your source code history.</p>
+        
+        <h2>Basic Git Commands</h2>
+        <ul>
+            <li><code>git init</code> - Initialize a local Git repository</li>
+            <li><code>git clone</code> - Copy a remote repository into a new directory</li>
+            <li><code>git add</code> - Add files to the staging area</li>
+            <li><code>git commit</code> - Commit changes</li>
+            <li><code>git push</code> - Push changes to remote repository</li>
+            <li><code>git pull</code> - Update local repository to the newest commit</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Copyright 2023 Git Essentials</p>
+    </footer>
+</body>
+</html>
